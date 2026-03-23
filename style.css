@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 0, 43);
+    color: yellow;
+    font-family: cursive;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    height: 79px;
+    background-color: darkred;
+    align-items: center;
+    font-size: 38px;
+    border-bottom: solid yellow 03px;
+}
+
+.menu a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+.links {
+    display: flex;
+    gap: 20vmax;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto {
+    background-color: crimson;
+    height: 200px;
+    width: 33%;
+    text-align: justify;
+}
+
+.texto h3 {
+    font-size: 16px;
+}
+
+.texto p {
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.texto button {
+    background-color: rgb(151, 4, 33);
+    padding: 20PX, 20PX, 20PX, 20PX;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    color: yellow;
+}
+
+.texto button a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.texto button:hover { 
+    background-color: rgb(151, 4, 33);
+    cursor: pointer;
+
+}
+
+.conhecimentos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conhecimento {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.conhecimento img {
+    width: 200px;
+}
